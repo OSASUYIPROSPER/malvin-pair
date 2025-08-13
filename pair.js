@@ -88,22 +88,22 @@ Thanks for using *PROS-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029VbAvkp796H4Tc23Y970T
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
+https://github.com/OSASUYIPROSPER/PROS-XD
 
 ——————
 
-> *© Powered by Malvin King*
+> *© Powered by PROS XD*
 Stay cool and hack smart. ✌🏻`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍᴀʟᴠɪɴ-xᴅ",
-thumbnailUrl: "https://i.postimg.cc/xT2DwT9C/file-00000000cbc462439fc5801ae434cd0b.png",
+thumbnailUrl: "https://i.postimg.cc/PfwQR9zf/file-00000000fb306246a76063a80eb256a4.png",
 sourceUrl: "https://whatsapp.com/channel/0029VbAvkp796H4Tc23Y970T",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -113,7 +113,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `Hey there, MALVIN-XD User!* 👋🏻
+                            let desc = `Hey there, PROS-XD User!* 👋🏻
 
 Thanks for using *PROS-XD* — your session has been successfully created!
 
@@ -128,19 +128,19 @@ https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
+https://github.com/OSASUYIPROSPER/PROS-XD
 
 ——————
 
-> *© Powered by Malvin King*
+> *© Powered by PROS XD*
 Stay cool and hack smart. ✌🏻`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍᴀʟᴠɪɴ-xᴅ",
-thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+thumbnailUrl: "https://i.postimg.cc/PfwQR9zf/file-00000000fb306246a76063a80eb256a4.png",
+sourceUrl: "https://whatsapp.com/channel/0029VbAvkp796H4Tc23Y970T",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -157,7 +157,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    MALVIN_XD_PAIR_CODE();
+                    PROS_XD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -168,7 +168,7 @@ showAdAttribution: true
             }
         }
     }
-   return await MALVIN_XD_PAIR_CODE();
+   return await PROS_XD_PAIR_CODE();
 });/*
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
